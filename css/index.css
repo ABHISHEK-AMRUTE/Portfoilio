@@ -2,7 +2,9 @@
     overflow-x: hidden;
     background-color: #d3d3d3;
 }
-
+body{
+    scroll-behavior: smooth;
+}
 
 
 .typewriter h2 {
@@ -41,7 +43,6 @@
     background-position: center;
     background-size:cover;
     
-    background-image: url("https://github.com/ABHISHEK-AMRUTE/Portfoilio/blob/master/public/hero_image.jpg");
     background-attachment: fixed;
 }
 .lower{
@@ -79,9 +80,21 @@
     font-weight: bold;
 }
 
-.sub-heading{
-    font-size: 2.5em;
+.sub-heading-wrapper{
+    
     color: white;
+    width: 100%;
+    text-align: center;
+    font-size: 2.5em;
+    align-items: center;
+
+  
+}
+#sub-heading{
+  
+   
+
+    
 }
 
 #about-card{
@@ -129,4 +142,25 @@
     margin: 10px;
    font-family: Comfortaa
     
+}
+
+.read_more{
+    border-radius: 5%;
+    border: 0px;
+    padding: 10px;
+    font-family: Comfortaa;
+    background-color: #C8C8C8;
+}
+
+.container-section{
+   text-align: center;
+   padding: 20px;
+}
+
+.section_heading{
+    margin-top: 10vh;
+    font-weight: bold;
+    font-size: 2.5em;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
